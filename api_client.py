@@ -91,6 +91,8 @@ def show_accounts():
         print("Error: Cannot connect to server. Make sure it's running on http://127.0.0.1:8000")
     except Exception as e:
         print(f"Error: {str(e)}")
+
+
 def deposit():
     try:
         acc_id = input("Enter Account ID: ").strip()
@@ -110,22 +112,7 @@ def deposit():
     except requests.exceptions.ConnectionError:
         print("Error: Cannot connect to server. Make sure it's running on http://127.0.0.1:8000")
     except Exception as e:
-        print(f"Error: {str(e)}")]:<15} {acc['name']:<20} ${acc['balance']:<14.2f}")
-            print("="*60)
-    except requests.exceptions.ConnectionError:
-        print("Error: Cannot connect to server. Make sure it's running on http://127.0.0.1:8000")
-    except Exception as e:
         print(f"Error: {str(e)}")
-
-
-def deposit():
-    acc_id = input("Enter Account ID: ")
-    amount = float(input("Enter deposit amount: "))
-
-    payload = {"account_id": acc_id, "amount": amount}
-    response = requests.post(f"{API_BASE}/bank/deposit", json=payload)
-    print("\nResponse:", response.json())
-
 
 
 def withdraw():
