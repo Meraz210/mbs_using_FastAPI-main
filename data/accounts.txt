@@ -1,0 +1,4 @@
+ACC001|John Doe|5250.0
+ACC002|Jane Smith|8000.5
+ACC003|Bob Wilson|4000.75
+ACC004|Alice Johnson|2500.0
