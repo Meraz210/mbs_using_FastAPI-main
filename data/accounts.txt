@@ -1,5 +1,5 @@
-ACC001|John Doe|5500.0
-ACC002|Jane Smith|7500.5
-ACC003|Bob Wilson|4750.75
+ACC001|John Doe|5750.0
+ACC002|Jane Smith|7000.5
+ACC003|Bob Wilson|5500.75
 ACC004|Alice Johnson|2500.0
 34|Mahim|23000.0

@@ -177,4 +177,4 @@ def show_logs():
     return {"logs": lines}
 
 if __name__ == "__main__":
-    uvicorn.run("api_server:app", host="127.0.0.1", port=8080, reload=True)
+    uvicorn.run("api_server:app", host="127.0.0.1", port=9999, reload=False)

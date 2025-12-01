@@ -8,7 +8,7 @@ import requests
 import json
 import time
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "http://127.0.0.1:9999"
 
 def print_section(title):
     print(f"\n{'='*60}")
